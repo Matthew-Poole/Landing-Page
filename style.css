@@ -1,14 +1,18 @@
+/* Header CSS */
+body {
+    margin: 0;
+
+}
 .header {
     background-color: #1f2937;
     display: flex;
     align-items: baseline;
-    justify-content: space-between;
-    
+    justify-content: space-around;
+    padding-top: 8px;
 }
 
 a {
     text-decoration: none;
-    
 }
 
 ul {
@@ -16,7 +20,7 @@ ul {
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 8px;
+    gap: 32px;
 }
 
 .header-logo a {
@@ -25,6 +29,37 @@ ul {
 }
 
 .links-right a {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+/* First Body Section CSS */
+
+.firstpic img {
+    width: 400px;
+    height: auto;
+}
+
+.body1 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #1f2937;
+}
+
+.firstp {
+    flex: 1;
+    max-width: 400px;
+}
+
+.firstp h1 {
+    font-size: 48px;
+    font-weight:bolder;
+    color: #f9faf8;
+}
+
+.firstp p {
     font-size: 18px;
     color: #e5e7eb;
 }
